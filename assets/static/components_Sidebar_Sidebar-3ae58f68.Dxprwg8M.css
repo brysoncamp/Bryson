@@ -1,0 +1,1 @@
+.sidebar{color:#fff;height:100%;display:flex;flex-direction:column}.sidebar h2{color:#fff}.sidebar-scroll{overflow-y:scroll;flex:1;scrollbar-width:none;-ms-overflow-style:none;position:relative;max-width:100%}.sidebar-scroll::-webkit-scrollbar{display:none}
