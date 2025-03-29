@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cheapchat
+
+Sitemap: https://bryson.camp/sitemap.xml
