@@ -1,0 +1,18 @@
+.experience-list {
+    padding-top: 0.85rem;
+    color: #cecece;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    max-width: 24rem;
+}
+
+.dot {
+    color: #929292;
+}
+
+@media (max-width: 66rem) {
+    .experience-list {
+        max-width: max(24rem, 60vw);
+    }
+}
+

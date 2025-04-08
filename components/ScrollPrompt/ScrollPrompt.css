@@ -1,0 +1,56 @@
+.scroll-prompt-container {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 20;
+    pointer-events: none;
+}
+
+.scroll-prompt {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+    pointer-events: none;
+}
+
+.scroll-prompt img {
+    height: 2rem;
+    margin-top: -0.125rem;
+    animation: floatY 2s ease-in-out infinite;
+    filter: drop-shadow(12px 12px 16px rgba(0, 0, 0, 1));
+
+}
+
+@keyframes floatY {
+    0%, 100% {
+      transform: translateY(0.25rem);
+    }
+    50% {
+      transform: translateY(-0.25rem);
+    }
+}
+
+
+.fade-in-out {
+    animation: fadeInOut 10s ease-in-out infinite;
+}
+  
+@keyframes fadeInOut {
+    0%, 45% {
+      opacity: 0;
+    }
+    50%, 95% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+  

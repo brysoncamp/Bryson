@@ -1,0 +1,37 @@
+.certificate-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0rem;
+    max-width: 24rem;
+}
+
+.certificate-item {
+    background-color: #222;
+    padding: 0.5rem 0.75rem 0.5rem 1rem;
+    border-radius: 1rem;
+    font-family: "Arial", sans-serif;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s color 0.3s;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.certificate-item:hover {
+    background-color: #333;
+}
+
+.certificate-arrow-icon {
+    height: 1.125rem;
+    margin-left: 0.75rem;
+}
+
+@media (max-width: 66rem) {
+    .certificate-items {
+        max-width: max(24rem, 60vw);
+    }
+}

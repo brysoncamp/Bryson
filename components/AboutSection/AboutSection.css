@@ -1,0 +1,24 @@
+.about-section {
+   
+    padding: 0 2rem;
+}
+
+.about-heading {
+    margin: 0;
+
+}
+
+.about-description {
+    color: #a3a3a3;
+    font-family: "Arial", sans-serif;
+    /*max-width: 26rem;*/
+    /*max-width: max(26rem, 60%);*/
+    max-width: 26rem;
+    margin: 0;
+}
+
+@media (max-width: 66rem) {
+    .about-description {
+        max-width: max(26rem, 60vw);
+    }
+}

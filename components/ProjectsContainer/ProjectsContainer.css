@@ -1,0 +1,46 @@
+.projects-heading {
+    color: white;
+    margin-top: 3rem;
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+}
+
+.projects-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.project {
+    transition: left 0.5s, top 0.5s, width 0.5s, height 0.5s, background-color 0.25s;
+    border-radius: 1rem;
+    background-color: #151515;
+    color: white;
+    font-size: 2rem;
+}
+
+.project-expanded {
+    width: calc(100% - 2rem);
+    height: calc(100% - 17rem);
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    z-index: 10;
+}
+
+.project-collapsed {
+    width: calc(50% - 1.5rem);
+    height: 9.25rem;
+    position: absolute;
+    top: calc(100% - 11rem);
+    cursor: pointer;
+}
+
+.project-collapsed:hover {
+    background-color: #222;
+}
+
+.collapsed-right {
+    left: 50%;
+    margin-left: -0.5rem;
+}
