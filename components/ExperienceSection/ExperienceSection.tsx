@@ -5,6 +5,10 @@ const ExperienceSection: React.FC = () => {
   return (
     <div className="education-section">
       <h5 className="heading education-heading">Experience</h5>
+      <p className="education-years">2025 - Present</p>
+      <p>Junior JavaScript Developer</p>
+      <p className="university">Zudello Pty Ltd</p>
+      <br /><br />
       <p className="education-years">2023 - 2025</p>
       <p>Accounts Payable Officer</p>
       <p className="university">Vikcon Construction Services</p>
